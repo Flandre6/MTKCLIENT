@@ -1,3 +1,3 @@
 @echo off
 title MTKClient Log
-python "%~dp0mtk_gui.py"
+python %~dp0\mtk_gui
