@@ -5,10 +5,10 @@ today = date.today()
 block_cipher = None
 
 
-a = Analysis(['mtk.py'],
+a = Analysis(['mtk'],
              pathex=[],
              binaries=[],
-             datas=[('mtkclient/Windows/*', '.'), ('mtkclient/payloads', 'mtkclient/payloads'), ('mtkclient/Loader', 'mtkclient/Loader'), ('mtkclient/Library/Filesystem/bin', 'mtkclient/Library/Filesystem/bin')],
+             datas=[('mtkclient/Windows/*', '.'), ('mtkclient/payloads', 'mtkclient/payloads'), ('mtkclient/Loader', 'mtkclient/Loader')],
              hiddenimports=[],
              hookspath=[],
              hooksconfig={},
