@@ -1,3 +1,3 @@
 @echo off
 title MTKClient
-python "%~dp0mtk.py" %*
+python %~dp0\mtk %*
