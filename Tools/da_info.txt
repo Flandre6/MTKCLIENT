@@ -1,4 +1,4 @@
-hwcode: 0x65734
+hwcode: 0x6573
 hw_sub_code: 0x0000
 hw_version: 0xCA10
 sw_version: 0xCA01
