@@ -3,7 +3,6 @@ import os
 from struct import unpack
 import sys
 
-
 def extract_emi(data):
     idx = data.find(b"\x4D\x4D\x4D\x01\x38\x00\x00\x00")
     siglen = 0
@@ -27,15 +26,19 @@ def extract_emi(data):
                 emi = data[data.find(b"MTK_BIN") + 0x16:]
             return ver, emi
 
-
 for root, dirs, files in os.walk(sys.argv[1], topdown=False):
     for file in files:
-        fname = os.path.join(root, file)
-        with open(fname, "rb") as rf:
-            data = rf.read()
-            ver, data = extract_emi(data)
+        fname=os.path.join(root, file)
+        with open(fname,"rb") as rf:
+            data=rf.read()
+            ver, data=extract_emi(data)
             if data is not None:
                 with open(fname + ".dram", "wb") as wf:
                     wf.write(data)
             else:
                 print(f"Error on extracting {fname}")
+
+
+
+
+
