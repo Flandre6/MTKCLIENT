@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python34
 import sys
 import hashlib
 from mtkclient.Library.utils import find_binary
