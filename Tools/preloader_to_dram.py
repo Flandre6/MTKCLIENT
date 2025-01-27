@@ -1,4 +1,4 @@
-#!/usr/bin/env python38
+#!/usr/bin/env python3
 import os
 from struct import unpack
 import sys
