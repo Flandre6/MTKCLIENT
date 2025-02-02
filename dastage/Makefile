@@ -2,7 +2,7 @@ ifneq (,$(findstring arm-linux-gnueabihf,$(shell gcc -dumpmachine)))
 CC := gcc
 AS := as
 LD := gcc
-OBJCOPY := objcopy。
+OBJCOPY := objcopy
 else
 CC := arm-none-eabi-gcc
 AS := arm-none-eabi-as
