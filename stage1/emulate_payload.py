@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#(c) B.Kerler 2021
+#(c) B.Kerler 2025
 
 import logging
 from emu_config.payload_config import br
