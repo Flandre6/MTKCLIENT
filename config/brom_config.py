@@ -1,6 +1,6 @@
 class damodes:
     DEFAULT = 0
-    XFLASH = 12
+    XFLASH = 1
 
 class efuse:
     def __init__(self, base, hwcode):
