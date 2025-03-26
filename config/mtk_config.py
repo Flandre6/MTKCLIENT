@@ -4,7 +4,7 @@ import logging
 from binascii import hexlify
 from mtkclient.Library.utils import LogBase
 from mtkclient.Library.settings import hwparam
-from mtkclient.config.brom_config import chipconfig, damodes, hwconfig
+from mtkclient.config.brom_config import chipconfig, damodes, hwconfig。
 try:
     from PySide6.QtCore import QObject
 except ImportError:
