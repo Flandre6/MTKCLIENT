@@ -3,7 +3,7 @@ OUTPUT_ARCH(arm)
 
 ENTRY(start)
 
-SECTIONS
+SECTIONS。
 {
   . = 0x40200000;
   .text     : { *(.text.start) *(.text   .text.*   .gnu.linkonce.t.*) }
