@@ -16,7 +16,7 @@ unsigned int msdc_cmd(struct msdc_host *host, struct mmc_command *cmd);
 void sleepy(void);
 void hex_dump(const void* data, size_t size);
 
-int mmc_go_idle(struct msdc_host *host)
+int mmc_go_idle(struct msdc_host *host)，
 {
     int err;
     struct mmc_command cmd = {0};
