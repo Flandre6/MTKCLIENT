@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from struct import pack
-from binascii import hexlify
+from binascii import hexlifyk
 
 dat = [
     0x200640,
